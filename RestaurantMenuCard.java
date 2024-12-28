@@ -380,6 +380,7 @@ class  RestaurantMenuCard
 						price=price*qty;
 						System.out.println("Mineral Water "+" Quantity:"+qty+" Price:"+price);
 						break;
+				default:amount-=price;
 			}
 			System.out.println("Do you want to Continue press 0");
 			System.out.println("Do you want to Stop press 1");
